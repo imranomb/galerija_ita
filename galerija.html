@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        * 
+        {
+            padding: 0;
+            margin: 0;
+            --plava: #6ca3d9;
+        }
+        .container
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 50px 8%;
+        }
+        .thumbnail
+        {
+            background-color: var(--plava);
+            width: 250px;
+            height: 1fr;
+            border-radius: 7px;
+        }
+        h2 
+        {
+            margin-bottom: 15px;
+        }
+        .slika img 
+        {
+            height: 100%;
+            width: 100%;
+            text-align: center;
+        }
+        .opis-slike 
+        {
+            background-color: white;
+            width: 100%;
+            text-align: center;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+        .thumbnails
+        {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            row-gap: 50px;
+            justify-content: start;
+        }
+        .opis 
+        {
+            font-size: 18px;
+            margin-top: 25px;
+        }
+        @media screen and (max-width:767px) {
+            h2 
+            {
+                text-align: center;
+            }
+            .thumbnails
+            {
+                justify-content: center;
+            }
+        }
+    </style>
+    <div class="container">
+        <h2>GALERIJA</h2>
+        <div class="thumbnails">
+            <div class="thumbnail">
+                <div class="slika">
+                    <img src="placeholder-image.png" width="200px" height="150px">
+                </div>
+                <div class="opis-slike">
+                    <h4>Image title</h4>
+                </div>
+            </div>
+            <div class="thumbnail">
+                <div class="slika">
+                    <img src="placeholder-image.png" width="200px" height="150px">
+                </div>
+                <div class="opis-slike">
+                    <h4>Image title</h4>
+                </div>
+            </div>
+            <div class="thumbnail">
+                <div class="slika">
+                    <img src="placeholder-image.png" width="200px" height="150px">
+                </div>
+                <div class="opis-slike">
+                    <h4>Image title</h4>
+                </div>
+            </div>
+            <div class="thumbnail">
+                <div class="slika">
+                    <img src="placeholder-image.png" width="200px" height="150px">
+                </div>
+                <div class="opis-slike">
+                    <h4>Image title</h4>
+                </div>
+            </div>
+            <div class="thumbnail">
+                <div class="slika">
+                    <img src="placeholder-image.png" width="200px" height="150px">
+                </div>
+                <div class="opis-slike">
+                    <h4>Image title</h4>
+                </div>
+            </div>
+            <div class="thumbnail">
+                <div class="slika">
+                    <img src="placeholder-image.png" width="200px" height="150px">
+                </div>
+                <div class="opis-slike">
+                    <h4>Image title</h4>
+                </div>
+            </div>
+            <div class="thumbnail">
+                <div class="slika">
+                    <img src="placeholder-image.png" width="200px" height="150px">
+                </div>
+                <div class="opis-slike">
+                    <h4>Image title</h4>
+                </div>
+            </div>
+            <div class="thumbnail">
+                <div class="slika">
+                    <img src="placeholder-image.png" width="200px" height="150px">
+                </div>
+                <div class="opis-slike">
+                    <h4>Image title</h4>
+                </div>
+            </div>
+            <div class="thumbnail">
+                <div class="slika">
+                    <img src="placeholder-image.png" width="200px" height="150px">
+                </div>
+                <div class="opis-slike">
+                    <h4>Image title</h4>
+                </div>
+            </div>
+            <div class="thumbnail">
+                <div class="slika">
+                    <img src="placeholder-image.png" width="200px" height="150px">
+                </div>
+                <div class="opis-slike">
+                    <h4>Image title</h4>
+                </div>
+            </div>
+        </div>
+        <div class="opis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus iure quaerat deleniti ducimus, beatae nostrum excepturi voluptates harum, itaque molestias vero vitae recusandae aliquid dolore non debitis voluptatem magni ipsam! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente nobis magni quos officia quisquam, molestiae alias et odio nam deserunt ratione fuga sunt veritatis at iure quis perspiciatis doloremque provident. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident amet assumenda excepturi ex, eveniet odio perferendis omnis possimus perspiciatis, quos corrupti hic maiores aliquid libero harum vitae officiis tempore quis.</div>
+    </div>
+</body>
+</html>
